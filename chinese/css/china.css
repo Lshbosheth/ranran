@@ -1,0 +1,152 @@
+.three ul {
+  width: 772px;
+  height: 597px;
+  margin: 0 auto;
+}
+.three ul li {
+  width: 123px;
+  height: 597px;
+  float: left;
+  font-family: "aaa";
+  margin-left: 70px;
+  cursor: pointer;
+}
+.three ul li:nth-child(1) {
+  background: url(../img/one1.png) no-repeat;
+}
+.three ul li:nth-child(2) {
+  background: url(../img/two1.png) no-repeat;
+}
+.three ul li:nth-child(3) {
+  background: url(../img/three1.png) no-repeat;
+}
+.three ul li:last-child {
+  background: url(../img/four1.png) no-repeat;
+}
+.intro {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg7.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.intro img {
+  cursor: pointer;
+}
+.intro1 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/99P58PICyu2_1024.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.intro1 img {
+  cursor: pointer;
+}
+.intro2 {
+  width: 100%;
+  height: 100%;
+  background: url(../img/99P58PICyu2_1024.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.intro2 img {
+  cursor: pointer;
+}
+.intro_jieshao {
+  margin: 0 auto;
+  position: relative;
+}
+.intro_jieshao img {
+  position: absolute;
+  right: 200px;
+  top: -350px;
+  cursor: pointer;
+}
+.intro_jieshao p {
+  margin: 0 auto;
+  text-align: left;
+  width: 600px;
+  font-size: 24px;
+  font-family: "楷体";
+  text-indent: 2em;
+}
+.three ul li {
+  position: relative;
+}
+.three ul li .nr {
+  position: absolute;
+  font-size: 70px;
+  bottom: 2px;
+  left: 2px;
+  width: 117px;
+  height: 353px;
+  color: #000000;
+  line-height: 90px;
+}
+.four {
+  font-family: "aaa";
+  color: #000000;
+  text-align: center;
+}
+.four h1 {
+  margin: 66px auto 0;
+}
+.four ul {
+  width: 819px;
+  height: 409px;
+  margin: 10px auto;
+}
+.four ul li {
+  width: 173px;
+  height: 409px;
+  float: left;
+  cursor: pointer;
+  font-family: "aaa";
+}
+.four ul li:nth-child(1) {
+  background: url(../img/s1.png) no-repeat;
+  box-shadow: 10px 5px 10px #ccc;
+}
+.four ul li:nth-child(2) {
+  background: url(../img/s2.png) no-repeat;
+  margin-left: 150px;
+  box-shadow: 10px 5px 10px #ccc;
+}
+.four ul li:last-child {
+  background: url(../img/s3.png) no-repeat;
+  margin-left: 150px;
+  box-shadow: 10px 5px 10px #ccc;
+}
+.register {
+  background: url(../img/bg5.jpg);
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 666;
+}
+.register .register_neir {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+.know {
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  cursor: pointer;
+}

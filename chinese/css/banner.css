@@ -1,0 +1,42 @@
+	section{width:700px;height:320px;margin:200px auto;perspective:800px;position:relative;opacity: 0.6;}
+	section > ul > li{list-style:none;height:320px;float:left;position:relative;
+	transform-style:preserve-3d;transform: translateZ(-160px);}
+	section > ul > li div{width:175px;height:320px;position:absolute;}
+	section > ul > li div:nth-child(1){transform:translateZ(160px);background:url("../img/shangui.jpg") no-repeat;background-size: 700px 320px;cursor: pointer;}
+	section > ul > li div:nth-child(2){transform:rotate(180deg);transform: translateZ(-160px);background:url("../img/东皇太一22.png") no-repeat;background-size: 700px 320px;cursor: pointer;}	
+	section > ul > li div:nth-child(3){left:0px;top:-320px;transform: translateZ(160px) rotateX(90deg);transform-origin:bottom;background:url("../img/河伯1.png") no-repeat;background-size: 700px 320px;cursor: pointer;}	
+	section > ul > li div:last-child{left:0px;top:320px;transform: translateZ(160px) rotateX(-90deg);transform-origin:top;z-index:-1;background:url("../img/xiangfuren.png") no-repeat;background-size: 700px 320px;cursor: pointer;}
+	nav{position:absolute;z-index:100;bottom:10px;right:50px;}
+	nav ul li{list-style:none;width:66px;height:30px;float:left;margin-left:10px;border-radius:3px;text-align:center;line-height:30px;cursor:pointer;background:#e0ddd6;font-size: 12px;color: #000000;font-family: "楷体"}
+	.bg{background:#eee;color:#000;font-weight: bold;}
+
+
+
+
+
+*{margin: 0;padding: 0;}
+	li{list-style: none;}
+	a{text-decoration: none;}
+	@font-face {
+		font-family:"lalala";
+		src: url("../img/SENTYGOLDENBELL.TTF");
+	}
+	@font-face {
+		font-family:"ddd";
+		src: url("../img/方正小篆体.ttf");
+	}
+	@font-face {
+		font-family:"aaa";
+		src: url("../img/方正启功体.TTF");
+	}
+	#menu {position: fixed; left: 0; top: 0; z-index: 70;width: 100%;height: 66px;background: #e0ddd6;background-image:url(../img/bn.png) ;background-size:100% 66px ;}
+	#menu li { float: left; margin:  0 10px 0 0; font-size: 14px;width: 100px;height: 66px;}
+	#menu a { color: #000; text-decoration: none;display: block;width: 100px;height: 66px;line-height: 66px;text-align: center;font-size: 20px;font-family: "aaa";font-size: 25px}
+	#menu .active a { color: #000;font-weight: bold;}
+	.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;height: 766px;}
+	.r{float: right;margin-right: 66px;}
+	.one{background: url(../img/背景.png);background-size:cover}
+	.word1{width: 1000px;font-family: "ddd";margin: 0 auto;color: #000000;}
+	.two{background: url(../img/bg3.jpg);background-size: cover;position: relative;}
+	.three{background: url(../img/bg2.jpg);background-size: cover;font-family: "楷体";position: relative;color: #000000;}
+	.four{background: url(../img/bg4.jpg);background-size: cover;font-family: "aaa";color: #000000;}
